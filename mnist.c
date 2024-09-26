@@ -54,5 +54,5 @@ void main()
 
 	int nImages = 0;
 
-	read_mnist_images("/home/advo/dev/miniMNIST_C/data/train-images.idx3-ubyte", &nImages);
+	read_mnist_images("data/train-images.idx3-ubyte", &nImages);
 }
